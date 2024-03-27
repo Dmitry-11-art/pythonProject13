@@ -28,3 +28,9 @@ def func1(x, y):
 a = 4
 b = 5
 print(func1(a, b))
+
+def func2(a,b):
+    print(a)
+    print(b)
+    return a + b**2
+print(func2(a, b))
